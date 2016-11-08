@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.y2793623b.magic2.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:text="P+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/btVeneno1" />
+
+    <Button
+        android:text="P-"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/btVeneno2" />
+
+    <Button
+        android:text="Vida mas"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/btUp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/btVida1"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:text="vida menos"
+        android:layout_width="94dp"
+        android:layout_height="119dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/btUp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintVertical_bias="0.65999997"
+        android:id="@+id/btVida2" />
+
+    <Button
+        android:text="vida mas"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/btVida3"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/btDown" />
+
+    <Button
+        android:text="P+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintVertical_bias="0.39"
+        android:layout_marginTop="2dp"
+        android:id="@+id/btVeneno3" />
+
+    <Button
+        android:text="vida menos"
+        android:layout_width="94dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:id="@+id/btVida4"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/btDown" />
+
+    <Button
+        android:text="P-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.47000003"
+        android:layout_marginTop="2dp"
+        android:id="@+id/btVeneno4" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        app:layout_constraintGuide_begin="399dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="384dp"
+        android:layout_height="0dp"
+        android:id="@+id/guideline3"
+        app:layout_constraintGuide_begin="65dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btUp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:text="up"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        android:layout_marginTop="120dp" />
+
+    <Button
+        android:text="down"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btDown"
+        app:layout_constraintTop_toBottomOf="@+id/btUp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.46" />
+
+    <TextView
+        android:text="20/0"
+        android:layout_width="112dp"
+        android:layout_height="62dp"
+        android:id="@+id/txt1"
+        app:layout_constraintBottom_toTopOf="@+id/btUp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.54"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/btVida1"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/btVida2"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:text="20/0"
+        android:layout_width="100dp"
+        android:layout_height="63dp"
+        android:id="@+id/txt2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        app:layout_constraintVertical_bias="0.89"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/btVida3"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/btVida4"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.57"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btDown" />
+
+
+</android.support.constraint.ConstraintLayout>
